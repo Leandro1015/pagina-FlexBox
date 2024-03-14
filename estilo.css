@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #422a06;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Permite que los elementos dentro de la lista se distribuyan de manera flexible */
+    justify-content: center; /* Centra los elementos flexibles horizontalmente */
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#contenedor {
+    display: flex; /* Permite que los elementos dentro de la lista se distribuyan de manera flexible */
+    flex-wrap: wrap; /* Con flex-wrap los elementos se ajustan automáticamente a múltiples líneas */
+    justify-content: space-around; /* Usar el space-around distribuye el espacio sobrante alrededor de cada elemento, dejando así espacios iguales entre ellos y en los bordes del contenedor. */
+    padding: 20px;
+}
+
+section {
+    background-color: #e7d9c1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #d48610;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.boton:hover {
+    background-color: #ff8a65;
+}
+
+.producto {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.producto img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+#contenedor2 {
+    display: flex; /* Los elementos dentro del contenedor pueden ajustarse automáticamente */
+    flex-direction: column; /* Los elementos se apilan uno encima del otro en una columna vertical */
+    align-items: center; /* Centra verticalmente los elementos dentro del contenedor */
+    padding: 20px;
+}
+
+#contacto form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#contacto form input[type="text"],
+#contacto form input[type="email"],
+#contacto form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#contacto form button {
+    margin-bottom: 10px;
+}
+
+#contacto button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.titulo2 {
+    background-color: #d3af62;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.titulo {
+    color: #422a06;
+    text-align: center;
+}
+
+.lineaSeparadora {
+    border: 2px solid #b1aeae;
+    margin-bottom: 30px;
+}
